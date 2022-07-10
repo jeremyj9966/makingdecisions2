@@ -1,12 +1,14 @@
 // For problems 1-2 use the following lines of code:
-var arr = [10,20,30,40,50,60]
+// var arr = [10,20,30,40,50,60]
 
 ////////// PROBLEM 1 //////////
 /*
   Create a variable named 'firstItem' and set it equal to the first value of the 'arr' array.
 */
 
-//Code Here
+// //Code Here
+// let firstitem =arr[0]
+// console.log(firstitem)
 
 
 ////////// PROBLEM 2 //////////
@@ -15,11 +17,13 @@ var arr = [10,20,30,40,50,60]
 */
 
 //Code Here
+// let lastItemRemoved = arr.pop()
+// console.log(arr)
 
 ////////// PROBLEM 3 //////////
 
 // Do not edit the code below.
-var family = ['Tyler', 'Jordan', 'Ryan', 'Alice', 'Ireland'];
+// var family = ['Tyler', 'Jordan', 'Ryan', 'Alice', 'Ireland'];
 // Do not edit the code above.
 
 /*
@@ -28,13 +32,17 @@ var family = ['Tyler', 'Jordan', 'Ryan', 'Alice', 'Ireland'];
 
 //Code Here
 
+// for (i=0;i<family.length;i++){
+  // console.log(family[i])
+// }
+
 
 
 ////////// PROBLEM 4 //////////
 
 // Do not edit the code below.
-var nums = [1,2,3,6,22,98,45,23,22,12];
-let evensArr = []
+// var nums = [1,2,3,6,22,98,45,23,22,12];
+// let evensArr = []
 // Do not edit the code above.
 
 /*
@@ -42,7 +50,12 @@ let evensArr = []
 */
 
 //Code Here
-
+// for (i=0; i<nums.length;i++){
+//   if (nums[i] % 2 ===0){
+//     evensArr.push(nums[i])
+//  }
+// }
+// console.log(evensArr)
 
 
 ////////// PROBLEM 5 //////////
@@ -58,6 +71,10 @@ var score = 74
 //Code Here
 
 
+
+ 
+
+
 ////////// Intermediate Problems //////////
 
 ////////// PROBLEM 6 //////////
@@ -71,7 +88,8 @@ var myFavoriteNumbers = [4,8,12,16,20,24];
 */
 
 //Code Here
-
+let someNum= myFavoriteNumbers[4]
+// console.log(someNum)
 
 ////////// PROBLEM 7 //////////
 
@@ -90,6 +108,11 @@ var listOfNumbers = [1,2,3,4,5,6,7,8,9,10,11,12];
 // Use a for-loop to iterate through 'listOfNumbers', checking to see if each number is divisible by 3. If it is, console.log '{number} is divisible by 3.'
 
 //Code Here
+for (i=0;i<listOfNumbers.length;i++){
+  if (listOfNumbers[i]%3===0){
+    // console.log(`${listOfNumbers[i]} is divisible by 3 `)
+  }
+}
 
 
 ////////// PROBLEM 9 //////////
@@ -102,7 +125,9 @@ var letters = ['A', 'B', 'C', 'D', 'E'];
 */
 
 //Code Here
-
+for (let i=4;i>-1;i--){
+  console.log(letters[i])
+}
 
 ////////// Advanced Problems //////////
 
